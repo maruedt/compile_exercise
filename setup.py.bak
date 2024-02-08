@@ -1,0 +1,10 @@
+from setuptools import setup
+setup(
+    name='exercise-compiler',
+    version='0.0.1',
+    entry_points={
+        'console_scripts': [
+            'exercise-compiler=excomp:convert_pynb'
+        ]
+    }
+)

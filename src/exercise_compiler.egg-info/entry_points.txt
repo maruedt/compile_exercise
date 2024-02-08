@@ -1,0 +1,2 @@
+[console_scripts]
+compile-exercise = excomp:convert_pynb
